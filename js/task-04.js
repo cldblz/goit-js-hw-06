@@ -5,11 +5,11 @@ let counterValue = 0
 
 const onDecrement = () => {
     counterValue -= 1
-    valueRef.textContent = counterValue
+    valueRef.textContent = counterValue.toString()
 }
 const onIncrement = () => {
     counterValue += 1
-    valueRef.textContent = counterValue
+    valueRef.textContent = counterValue.toString()
 }
 
 decrementBtn.addEventListener("click", onDecrement)
